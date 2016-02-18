@@ -12,6 +12,10 @@ Sometimes people have an "About me" section on the homepage of their website.
   <img class="headshot" src="/media/snowflake.jpg" alt="snowflake"></img>
 
 
+[Snowflake by Alexey Kljatov](https://www.flickr.com/photos/chaoticmind75/6970305535/)
+
+
+
 Hi! I hope you are finding this example blog helpful and enjoyable.
 
 
