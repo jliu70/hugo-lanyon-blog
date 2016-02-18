@@ -44,6 +44,7 @@ The main source of inspiration of this series of blog posts was derived from the
   - Trials and Travails
   - "hugo help list drafts"
   - "hugo help list future"
+  - RSS feed
 
 
 
@@ -59,7 +60,7 @@ The main source of inspiration of this series of blog posts was derived from the
 
 - [Part 9: how to host on Github Pages][xref-9]
 
-- [Part 10: Amazon S3 Static website hosting with Cloudfront (CDN)][xref-10]
+- [Part 10: Basic Setup for Amazon Web Services][xref-10]
 
 ## Other related posts
 - [Github Markdown][xref-11]  

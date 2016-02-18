@@ -46,8 +46,10 @@ https://discuss.gohugo.io/t/define-variables/1800/2
 
 
 
-Is this for setting up RSS feed?
-layouts/rss.xml
+## RSS feed
+setting up RSS feed  with `layouts/rss.xml`
+
+The RSS feed is generated to `public/index.xml`
 
 
 
