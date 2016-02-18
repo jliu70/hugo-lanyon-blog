@@ -1,0 +1,81 @@
+/* Lists */
+/* over ride poole.css to fix markdown lists */
+ul, ol, dl {
+  vertical-align:top;
+  padding-left: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style-type: initial;
+}
+
+
+
+/* my own class for post archives list */
+.postlist {
+    background:#FFFFFF
+}
+
+.postlist ul {
+    vertical-align:top;
+    margin-bottom:.5em;
+    display:table;
+    margin:1em;
+    padding:0 0;
+    height:1px;
+}
+
+.postlist ul li, .postlist a span {
+    display:table;
+    height:100%;
+    width:100%;
+    list-style-type: none;
+}
+
+.postlist a {
+    display:table-cell;
+    width:40em;
+    padding: 0 0;
+    text-decoration:none;
+    line-height:1.2;
+    text-align:left;
+    #border-right:1px solid #111111;
+}
+
+.postlist a:hover {background:lightgrey;}
+
+
+.postlist span {
+    display:table-cell;
+    text-align:right;
+    width:30%;
+}
+
+/* My Blue */
+.theme-base-0g .sidebar,
+.theme-base-0g .sidebar-toggle:active,
+.theme-base-0g #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #0174DF;
+}
+.theme-base-0g .container a,
+.theme-base-0g .sidebar-toggle,
+.theme-base-0g .related-posts li a:hover {
+  color: #0174DF;
+}
+
+
+
+.team-member{
+  float: center;
+}
+.headshot{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.highlight pre{
+  background-color: #424242;
+}

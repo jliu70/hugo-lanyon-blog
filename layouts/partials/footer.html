@@ -1,0 +1,26 @@
+<!--
+  This is the main footer for the website. It is included on every page.
+
+  It is very basic. It has some text and a link back to the home page of the
+  site.
+
+  It includes the google analytics template from /layouts/partials/ga.html
+
+  It also closes the <body> and <html> tags for each page.
+-->
+
+<div class="container content">
+<footer>
+  <div>
+    <p class="right credit">
+    &copy; {{ .Site.Copyright }} Jeff Liu.  <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>; please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+</div>
+
+{{ partial "ga.html" . }}
+
+</body>
+</html>

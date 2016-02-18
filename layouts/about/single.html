@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+{{ partial "sidebar.html" . }}
+
+<!-- See /layouts/indexes/category.html for explanation of this section -->
+<div class="wrap">
+
+  {{ partial "masthead.html" . }}
+
+  <div class="container content">
+
+     {{ .Content }}
+
+  </div>
+
+
+<!-- Include footer (ends <body> and <html>) -->
+{{ partial "footer.html" . }}
+</div>
+<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+

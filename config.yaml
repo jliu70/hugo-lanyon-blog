@@ -1,0 +1,21 @@
+---
+baseurl: "http://example.com"
+canonifyurls: false
+title: "Example Blog"
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+  tag: "tags"
+permalinks:
+  posts: "/:year/:month/:day/:title/"
+  about: "/:section/"
+languageCode: "en-us"
+author:
+  name: "Your Name"
+copyright: "2015-16"
+params:
+  mymasthead: "Example Blog"
+DisqusShortname: "yourDisqusShortname"
+GoogleAnalytics: "UA-XXXXXXXX-1"

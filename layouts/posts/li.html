@@ -1,0 +1,6 @@
+    <ul class="postlist">
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a>
+      <span>{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+    </li>
+    </ul>

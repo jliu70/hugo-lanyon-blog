@@ -1,0 +1,39 @@
+<!--
+  This file is used to render a list of all posts on our blog.
+-->
+
+{{ partial "header.html" . }}
+
+  {{ partial "sidebar.html" . }}
+
+  <!-- See /layouts/indexes/category.html for explanation of this section -->
+  <div class="wrap">
+
+    {{ partial "masthead.html" . }}
+
+    <!--
+      In this section we have Hugo generate a list of all blog posts, ordered
+      by date.
+
+      When showing each post we ask Hugo to use the template in
+      /layouts/posts/li.html to provide a short description of each post.
+    -->
+    <div class="container content">
+    <p>Here are all my blog posts, in descending order by creation date. If you would like to view them by topic, see the <a href="/categories">Categories</a> page.</p>
+      <h1 class="post-title">All Blog Posts (By Date)</h1>
+      <!-- got this following tweak GroupByDate "2006" from spf13 layouts/_default/section.html  - now just need to customize posts/li.html  can tweak css based of spf13/static/css/_mystiles.css  -->
+            {{ range .Data.Pages.GroupByDate "2006" }}
+	    <h2>{{ .Key }}</h2>
+               <ul class="postlist">
+	        {{ range .Pages }}
+                   {{ .Render "li"}}
+                {{ end }}
+               </ul>
+	    {{ end }}
+    </div>
+    <!-- Include footer (ends <body> and <html>) -->
+    {{ partial "footer.html" . }}
+  </div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
